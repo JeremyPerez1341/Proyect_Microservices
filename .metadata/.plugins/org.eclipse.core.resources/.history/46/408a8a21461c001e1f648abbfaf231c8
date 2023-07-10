@@ -1,0 +1,5 @@
+package com.formacionbdi.springboot.app.products.models.entity;
+
+public class Product {
+
+}
