@@ -24,5 +24,4 @@ public class ItemServiceFeign implements ItemService {
 	public Item findById(Long id, Integer quantity) {
 		return new Item(clientFeign.detail(id), quantity);
 	}
-
 }
